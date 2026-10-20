@@ -1,7 +1,16 @@
-/* Edit project content here. Blocks support {type:'image',src,alt,caption},
-   {type:'video',src,poster,caption}, and {type:'text',heading,text}.
-   Keep media files inside assets/. No videos are shown until a source is supplied. */
+/* Update hero and process blocks here. Media types: image, video and text.
+   Keep source files in assets/. No unprovided process images/videos are fabricated. */
 window.PORTFOLIO_PROJECTS={
- 'future-studio':{number:'01',title:'Future studio',subtitle:'Space · Imagination · Possibility',intro:'Future studio：探索空間與未來的可能。',blocks:[{type:'image',src:'assets/future-studio.png',alt:'Future studio 空間設計：樹狀木柱、圓形天窗、雙側階梯與柔和座椅。',caption:'Future studio · 空間視覺'},{type:'text',heading:'關於作品',text:'完整作品介紹與設計過程正在整理中。'}]},
- 'album-design':{number:'02',title:'Album design',subtitle:'Music · Typography · Visual storytelling',intro:'如果每天都可以 happy：以字體、色彩與圖像表達音樂。',blocks:[{type:'image',src:'assets/album-design.png',alt:'如果每天都可以 happy 專輯設計，以藍、黃、粉紅色文字搭配人物、唱盤與耳機。',caption:'Album design · 專輯視覺'},{type:'text',heading:'關於作品',text:'完整作品介紹與設計過程正在整理中。'}]}
+ 'future-studio':{
+  number:'01',title:'Future studio',subtitle:'SPACE · IMAGINATION · POSSIBILITY',
+  intro:'A future-facing studio imagined as a place to gather, explore, and create. A branching timber canopy connects the skylight above with soft seating, shared spaces, and quiet corners below.',
+  hero:{type:'image',src:'assets/future-studio.png',alt:'A studio with a branching wooden canopy, a circular skylight, curved stairs and soft seating.',caption:'Future studio — final spatial visualization'},
+  process:[{type:'text',heading:'Design process',text:'Process drawings, spatial studies, and development notes will be added here.'}]
+ },
+ 'album-design':{
+  number:'02',title:'Album design',subtitle:'MUSIC · TYPOGRAPHY · VISUAL STORYTELLING',
+  intro:'An album cover built around the tension between happy and sad. Oversized blue letterforms, bright yellow halftones, and pink accents frame an intimate illustrated moment, bringing sound and emotion into one visual composition.',
+  hero:{type:'image',src:'assets/album-design.png',alt:'Blue, yellow and pink album artwork with expressive lettering, a sleeping figure, a turntable and headphones.',caption:'Album design — final cover artwork'},
+  process:[{type:'text',heading:'Design process',text:'Typography experiments, layout iterations, and production details will be added here.'}]
+ }
 };
