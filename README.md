@@ -11,6 +11,7 @@ An illustrated, interactive portfolio by **Ying-Ju Chen**. A Taiwanese street ho
 - **Project windows:** open **01 / Future studio** or **02 / Album design** without leaving the homepage. Each project includes an introduction, final artwork, and selected process highlights.
 - **Desktop:** drag a project window by its title bar. Neighboring illustrated buildings frame the main house.
 - **Phones and tablets:** projects stack vertically and open in near-fullscreen, scrollable windows. Closing a window restores the homepage scroll position.
+- **Hallucination Game:** opens in a separate browser tab with **Research and Game Proposal**, **Game**, and **Refine** sections. The research section presents the Lost in Light proposal, interaction flowchart, storyboard references, and build plan. The playable game and refinement sections remain placeholders.
 - **About:** opens [chenyingju.com](https://chenyingju.com).
 - **Contact:** opens your email application with a message addressed to **chenyingju.tw@gmail.com**.
 
@@ -44,6 +45,9 @@ style.css           Illustration layout, responsive styles, and window appearanc
 play.js             Canvas character, shapes, seesaw physics, and lighting behavior
 projects.js         Project copy, final artwork, and process content
 windows.js          Project rendering, dragging, focus, and scroll management
+hallucination-game.html  Separate Hallucination Game project page
+game-page.css       Responsive project-page layout
+game-page.js        Accessible three-tab navigation
 assets/             Illustrations, favicon, architectural slices, and process images
 future-studio.html  Fallback project link
 album-design.html   Fallback project link
