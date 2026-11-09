@@ -8,6 +8,12 @@
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20261020-star">
 <link rel="stylesheet" href="style.css?v=20261026-floor-3">
 <link rel="stylesheet" href="game-page.css?v=20261026-meta-8">
+  <style>
+    .lost-in-light-intro { margin-bottom: 1.5rem; }
+    .lost-in-light-intro h1 { margin-block: .4rem; }
+    .lost-in-light-frame { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; background: #080f18; }
+    .lost-in-light-open { margin-top: .75rem; text-align: right; }
+  </style>
 </head>
 <body class="game-page">
 <main class="game-shell" aria-label="Hallucination Game project">
@@ -39,7 +45,15 @@
 <section class="proposal-section" aria-labelledby="plan-heading"><p class="case-kicker">07 / BUILD PLAN</p><h2 id="plan-heading">One playable puzzle first</h2><div class="build-plan"><article><span>Week 2 · Core prototype</span><h3><mark>Build the interaction loop</mark></h3><p>Create one neon-city area with RGB drawing, color mixing, two-circle Creature Vision, and automatic creature movement.</p></article><article><span>Week 3 · Test &amp; refine</span><h3><mark>Make the rules understandable</mark></h3><p>Test perception, drawing freedom, and environmental guidance. Refine contrast, camera movement, feedback, and audio. Add basic mirror reflection if time allows.</p></article></div><p class="design-takeaway"><strong>Expected outcome:</strong> a playable HTML5 prototype demonstrating light drawing and perspective switching. The full three-stage journey is planned for later development.</p></section>
 
 </section>
-<section id="game" role="tabpanel" aria-labelledby="tab-game" tabindex="0" hidden><div class="case-overview empty-project-overview"><header><p class="case-kicker">02 / Game</p><h1>Lost in Light</h1><p class="case-intro">Our game is coming soon</p><ul class="proposal-tags" aria-label="Project topics"><li>#2D top-down puzzle adventure</li><li>#Light, perception &amp; environmental exploration</li></ul><p class="image-generation-credit">AI-assisted image generation · OpenAI</p></header><figure><img class="generated-game-hero" src="assets/research/lost-in-light-neon-creature-v2.png" width="1448" height="1086" alt="AI-generated 2D neon city concept: an original one-eyed light-sprout creature follows a cyan light route through blue geometric streets toward an exit"><figcaption>AI-generated game concept illustration — not actual gameplay.</figcaption></figure></div></section>
+<section id="game" role="tabpanel" aria-labelledby="tab-game" tabindex="0" hidden>
+  <header class="lost-in-light-intro">
+    <p class="case-kicker">02 / Game</p>
+    <h1>Lost in Light</h1>
+    <p class="case-intro">Light the streets. Borrow Lumi’s eyes. Find a way home.</p>
+  </header>
+  <iframe class="lost-in-light-frame" src="games/lost-in-light/index.html" title="Play Lost in Light" loading="lazy" width="1600" height="900"></iframe>
+  <p class="lost-in-light-open"><a href="games/lost-in-light/index.html" target="_blank" rel="noopener">Open game in a new tab ↗</a></p>
+</section>
 <section id="refine" role="tabpanel" aria-labelledby="tab-refine" tabindex="0" hidden><div class="case-overview empty-project-overview"><header><p class="case-kicker">03 / Refine</p><h1>Lost in Light</h1><p class="case-intro">From early ideas to the next iteration</p><ul class="proposal-tags" aria-label="Project topics"><li>#2D top-down puzzle adventure</li><li>#Light, perception &amp; environmental exploration</li></ul><p class="image-generation-credit">AI-assisted image generation · OpenAI</p></header><figure><img class="generated-game-hero" src="assets/research/lost-in-light-neon-creature-v2.png" width="1448" height="1086" alt="AI-generated 2D neon city concept: an original one-eyed light-sprout creature follows a cyan light route through blue geometric streets toward an exit"><figcaption>AI-generated game concept illustration — not actual gameplay.</figcaption></figure></div></section>
 <footer class="case-footer"><button type="button" id="case-top">Top ↑</button><span>HOME MADE IDEAS</span></footer>
 </div>
