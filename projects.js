@@ -1,5 +1,6 @@
 /* Curated from the two supplied process PDFs. Edit text and gallery items here. */
 window.PORTFOLIO_PROJECTS={
+"eyescape":{"number":"04","title":"Eyescape","subtitle":"WORK IN PROGRESS","intro":"Work in progress. Coming soon.","heroFirst":true,"hero":{"type":"image","src":"assets/eyescape.svg","alt":"An illustrated eye inside a colorful retro browser window","caption":"Project preview · Work in progress"},"process":[]},
   "future-studio": {
     "number": "01",
     "title": "Future studio",
